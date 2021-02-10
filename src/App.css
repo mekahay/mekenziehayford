@@ -1,0 +1,113 @@
+@import url("https://use.typekit.net/jag1fmg.css");
+
+.App {
+  text-align: center;
+  margin: 50px;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+
+.MH-Designs {
+  font-family: hwt-mardell, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.name-header {
+  font-family: acier-bat-noir, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.github {
+  padding: 10px 10px 0 10px;
+}
+
+.linkedin{
+  padding: 10px 10px 0 10px;
+}
+
+.gmail{
+  padding: 10px 10px 0px 10px;
+}
+
+
+.p1-modal{
+  max-width: 75%;
+  height: auto;
+}
+
+.p1-gameboard{
+  max-width: 75%;
+  height: auto;
+}
+
+h2{
+  font-family: paralucent, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h4{
+  font-family: paralucent, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.work-header{
+  font-family: paralucent, sans-serif;
+  font-weight: 700;
+  font-size: 250px;
+text-align: left;}
+
+.work-p1{
+  max-width: 100%;
+  height: auto;
+}
+
+.work-p2{
+  max-width: 100%;
+  height: auto;
+}
+
+.work-p3{
+  max-width: 100%;
+  height: auto;
+}
+
+.work-p4{
+  max-width: 100%;
+  height: auto;
+}
+
+.work-p5{
+  max-width: 100%;
+  height: auto;
+}
+
+.p1-picture1{
+  padding: 20px;
+}
+
+.p1-picture2{
+  padding: 20px;
+}
+
+.resume{
+  max-width: 100%;
+  height: auto;
+}
