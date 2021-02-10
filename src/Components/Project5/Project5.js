@@ -12,9 +12,9 @@ function Project5() {
             <h2>Happy Cabbage Gifts</h2>
             <p>Months before I knew of General Assembly I was creating the SquareSpace ecommerce site for a new small business, Happy Cabbage, there were things I was unable to do that the owners had hoped would be a feature on the site. This was the start of my development interests. This is a full-stack Ruby on Rails and React application with many to many relationships of users, products, categories, and a few different forms. With only a week to create this application I focused on the admin functionality and the css and bootstrap. Build Status Working with room for improvement and expansion.</p>
         </div>
-        <a href="https://happycabbageclient.herokuapp.com/">Live Build</a> <br/>
-        <a href="https://github.com/mekahay/happycabbage-backend">GitHub Repository API</a><br/>
-        <a href="https://github.com/mekahay/happycabbageclient">GitHub Repository Client</a>
+        <a href="https://happycabbageclient.herokuapp.com/" target="_blank">Live Build</a> <br/>
+        <a href="https://github.com/mekahay/happycabbage-backend" target="_blank">GitHub Repository API</a><br/>
+        <a href="https://github.com/mekahay/happycabbageclient" target="_blank">GitHub Repository Client</a>
         <hr/>
             <div className="images">
                 <Image className="p1-picture1" src={picture1} alt="picture1" fluid/>

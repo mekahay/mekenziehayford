@@ -4,7 +4,7 @@ import p2img from './Screen Shot 2021-02-09 at 7.00.21 PM.png';
 import p3img from './Screen Shot 2021-02-09 at 7.02.36 PM.png';
 import p4img from './Screen Shot 2021-02-09 at 7.01.55 PM.png';
 import p5img from './Screen Shot 2021-02-09 at 7.03.02 PM.png';
-import {Row, Col, Image, Card, CardColumns} from 'react-bootstrap';
+import {Card, CardColumns} from 'react-bootstrap';
 
 function Work () {
     return(

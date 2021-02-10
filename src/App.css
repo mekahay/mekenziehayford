@@ -107,7 +107,25 @@ text-align: left;}
   padding: 20px;
 }
 
+.resume-div{
+  display: flex;
+  justify-content: center;
+}
+
 .resume{
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
+}
+
+.box-gray{
+  color: gainsboro;
+  max-width: 250px;
+  height: auto;
+}
+
+.hello{
+  max-width: 40%;
+  height: auto;
+  /* display: flex;
+  justify-content: start; */
 }

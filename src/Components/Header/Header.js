@@ -7,7 +7,7 @@ function Header() {
         <h1 className='name-header'> Mekenzie Hayford</h1>
     <Nav  className="justify-content-center" activeKey="1">
         <Nav.Item>
-            <Nav.Link eventKey="1" href="/home">
+            <Nav.Link eventKey="1" href="/">
                 Home
             </Nav.Link>
         </Nav.Item>

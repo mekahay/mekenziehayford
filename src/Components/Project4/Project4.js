@@ -10,9 +10,9 @@ function Project4() {
             <h2>Insta Inspire</h2>
             <p>This is an application that gives the user inspirational quotes based on their current mood. Insta-Inspire is the group project for the General Assembly Software Engineering Immersive program. We were asked to develop a simple CRUD app with Ruby on Rails on the back-end and React on the front-end. We chose an inspirational quote feed to show all our functioning routes. We all worked together with my main role being the back-end making models with a one-to-many relationship with users having many quotes, I also had a hand in the front end adding bootstrap and a mood search function.</p>
         </div>
-        <a href="http://insta-inspire.herokuapp.com/">Live Build</a> <br/>
-        <a href="https://github.com/dilyaj/insta_app">GitHub Repository API</a><br/>
-        <a href="https://github.com/mekahay/group_project_frontend">GitHub Repository Client</a>
+        <a href="http://insta-inspire.herokuapp.com/" target="_blank">Live Build</a> <br/>
+        <a href="https://github.com/dilyaj/insta_app" target="_blank">GitHub Repository API</a><br/>
+        <a href="https://github.com/mekahay/group_project_frontend" target="_blank">GitHub Repository Client</a>
         <hr/>
             <div className="images">
                 <Image className="p1-picture1" src={picture1} alt="picture1" fluid/>

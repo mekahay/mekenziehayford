@@ -5,8 +5,8 @@ function Contact() {
         <>
         <div className="contact"> 
             <a href="mailto:mekenzie.hayford@gmail.com">Mekenzie.hayford@gmail.com</a><br/>
-            <a href="https://github.com/mekahay">GitHub</a><br/>
-            <a href="https://www.linkedin.com/in/mekenziehayford/">LinkedIn</a>
+            <a rel="noreferrer" href="https://github.com/mekahay" target="_blank">GitHub</a><br/>
+            <a rel="noreferrer" href="https://www.linkedin.com/in/mekenziehayford/" target="_blank">LinkedIn</a>
         </div>
         </>
     )
