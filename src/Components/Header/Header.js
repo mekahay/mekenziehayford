@@ -18,7 +18,7 @@ function Header() {
         </Nav.Item>
         <Nav.Item>
             <Nav.Link eventKey="3" href="/aboutme">
-                AboutMe
+                About Me
             </Nav.Link>
         </Nav.Item>
         <Nav.Item>
