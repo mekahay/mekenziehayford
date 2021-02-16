@@ -11,7 +11,7 @@ function Home() {
         <div className="homepage-div">
             <div className="homepage-header">
             <img className="hello" src={hello} alt="hello!"/>
-            <p>Driven Software Engineer who brings creative problem solving and technical skills to fast paced workplaces focused on solving challenging programming problems. With a background in marketing and customer service I am passionate about collaborating with many different teams and clients.
+            <p>I am Mekenzie Hayford, I am a driven Software Engineer who brings creative problem solving and technical skills to fast-paced workplaces focused on solving challenging programming problems. With a background in marketing and customer service, I am passionate about collaborating with many different teams and clients.
 </p>
             </div>
             <hr/>
