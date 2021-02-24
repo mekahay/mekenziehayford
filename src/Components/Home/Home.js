@@ -8,6 +8,7 @@ function Home() {
     return(
         <>
         <div className="homepage-div">
+            <div className="homepage-top">
             <div className="homepage-header">
             <p>Hello!</p>
             </div>
@@ -15,6 +16,7 @@ function Home() {
             <p>I am Mekenzie Hayford, I am a driven Software Engineer who brings creative problem solving and technical skills to fast-paced workplaces focused on solving challenging programming problems. With a background in marketing and customer service, I am passionate about collaborating with many different teams and clients.</p>
             </div>
             <hr/>
+            </div>
             <div className="homepage-div2">
             <div className="work-header">
                 <h4>RECENT WORK</h4>
