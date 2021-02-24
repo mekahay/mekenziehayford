@@ -123,11 +123,20 @@ text-align: left;}
   max-width: 250px;
   height: auto;
 }
-.homepage-header{
-  font-size: 75px;
-}
 .homepage-top{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.homepage-header{
+  font-size: 75px;
+  margin: 50px;
+  padding: 20px;
 }
 
+.homepage-p{
+  width: 500px;
+  height: 100px;
+  margin: 50px;
+  padding: 20px;
+}

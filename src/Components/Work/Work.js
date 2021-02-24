@@ -37,7 +37,7 @@ function Work () {
                 </Card.Text> 
                 <hr/>
                 <Card.Text>
-                This is a full-stack, full CRUD application, using the MERN stack: Node.js, Mongoose, Express and React using JWt authorization.
+                This is a full-stack, full CRUD application, using the MERN stack: Node.js, Mongoose, Express and React using JWT authorization.
                 </Card.Text>
                 </Card.Body>
             </Card>
