@@ -6,7 +6,7 @@ function Header() {
     return(
         <>
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-        <Navbar.Brand className="initials" href="/">MDH</Navbar.Brand>
+        <Navbar.Brand className="initials" href="/" style={{fontSize: 50}}>MDH</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="justify-content-end">
