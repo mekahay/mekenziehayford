@@ -10,8 +10,8 @@ function Project3() {
             <h2>Cocktail App</h2>
             <p>This application is a way to track your favorite cocktail recipes and then add each separate ingredient to a shopping list. This is a working full-stack, full CRUD application, using the MERN stack: Node.js, Mongoose, Express and React. Authorization using JWT with sign up/login functionality, encrypted passwords & an authorization flow. There are  two separate models with the plan to be related in a one-to-many relationship with users having many lists. It is deployed online and accessible to the public via Heroku. Build Status Working with room for improvement and expansion.</p>
         </div>
-        <a href="https://cocktailshoppinglist.herokuapp.com/" target="_blank">Live Build</a> <br/>
-        <a href="https://github.com/mekahay/Project3" target="_blank">GitHub Repository</a>
+        <a rel="noreferrer" href="https://cocktailshoppinglist.herokuapp.com/" target="_blank">Live Build</a> <br/>
+        <a rel="noreferrer" href="https://github.com/mekahay/Project3" target="_blank">GitHub Repository</a>
         <hr/>
             <div className="images">
                 <Image className="p1-picture1" src={picture1} alt="picture1" fluid/>

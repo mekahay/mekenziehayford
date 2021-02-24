@@ -10,10 +10,10 @@ function Resume() {
     return(
         <>
         <div className="resume-div">
-        <Card className="resume">
+        <Card className="resume" style={{ width: '18rem' }}>
             <Card.Body>
                 <Card.Text>
-                <Button variant="light"><a href='https://docs.google.com/document/d/1LMaMOk228rsMP8rk9ZkKRBkEYgUJQn0vOI5BoLxO7bo/edit?usp=sharing' class='download' target="_blank" download>Download</a></Button>
+                <Button rel="noreferrer" variant="light"><a rel="noreferrer" href='https://docs.google.com/document/d/1LMaMOk228rsMP8rk9ZkKRBkEYgUJQn0vOI5BoLxO7bo/edit?usp=sharing' class='download' target="_blank" download>Download</a></Button>
                 </Card.Text>
             </Card.Body>
             <Card.Img className="justify-content-center" variant="bottom" src={resume} />

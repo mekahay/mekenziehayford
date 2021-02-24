@@ -1,37 +1,31 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
+
 
 function Header() {
     return(
         <>
-        <h1 className='name-header'> Mekenzie Hayford</h1>
-    <Nav  className="justify-content-center" activeKey="1">
-        <Nav.Item>
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar.Brand className="initials" href="/">MDH</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="justify-content-end">
             <Nav.Link eventKey="1" href="/">
                 Home
             </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
             <Nav.Link eventKey="2" href="/work">
-                Recent Work
+                Work
             </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
             <Nav.Link eventKey="3" href="/aboutme">
                 About Me
             </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link eventKey="4" href="/contact">
-                Contact
-            </Nav.Link>
-        </Nav.Item> 
-        <Nav.Item>
             <Nav.Link eventKey="5" href="/resume">
                 Resume
             </Nav.Link>
-        </Nav.Item>
-    </Nav>
+        </Nav>
+        </Navbar.Collapse>
+
+    </Navbar>
     </>
     )
 }

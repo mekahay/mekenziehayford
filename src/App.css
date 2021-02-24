@@ -20,19 +20,20 @@ a:active {
   text-decoration: none;
 }
 
-
-
 .MH-Designs {
   font-family: hwt-mardell, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.name-header {
+.initials {
   font-family: acier-bat-noir, sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 100px;
+  text-align: left;
 }
+
 
 .github {
   padding: 10px 10px 0 10px;
@@ -123,9 +124,3 @@ text-align: left;}
   height: auto;
 }
 
-.hello{
-  max-width: 40%;
-  height: auto;
-  /* display: flex;
-  justify-content: start; */
-}
