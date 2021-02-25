@@ -9,8 +9,8 @@ function Home() {
     return(
         <>
         <div className="homepage-div">
-            <div className="homepage-top">
-            <CardDeck>
+            <div className="justify-content-center">
+            <CardDeck className="homepage-top">
             <Card className="border-0">
                 <Card.Img src={helloimg}></Card.Img>
             </Card>
