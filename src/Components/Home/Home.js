@@ -11,14 +11,15 @@ function Home() {
         <div className="homepage">
         <div className="homepage-div">
             <div className="justify-content-center">
-            <CardDeck>
+            <Card>
             <Card className="border-0">
-                <Card.Img src={helloimg} className="homepage-hello"></Card.Img>
+                {/* <Card.Img src={helloimg} className="homepage-hello"></Card.Img> */}
+                Hello!
             </Card>
             <Card className="border-0">
                 <Card.Body className="homepage-p">I am Mekenzie Hayford, I am a driven Software Engineer who brings creative problem solving and technical skills to fast-paced workplaces focused on solving challenging programming problems. With a background in marketing and customer service, I am passionate about collaborating with many different teams and clients.</Card.Body>
             </Card>
-            </CardDeck>
+            </Card>
             </div>
             </div>
             <div className="homepage-div2">
