@@ -8,16 +8,18 @@ import {Card, CardDeck} from 'react-bootstrap';
 function Home() {
     return(
         <>
+        <div className="homepage">
         <div className="homepage-div">
             <div className="justify-content-center">
-            <CardDeck className="homepage-top">
+            <CardDeck>
             <Card className="border-0">
-                <Card.Img src={helloimg}></Card.Img>
+                <Card.Img src={helloimg} className="homepage-hello"></Card.Img>
             </Card>
             <Card className="border-0">
-                <Card.Body>I am Mekenzie Hayford, I am a driven Software Engineer who brings creative problem solving and technical skills to fast-paced workplaces focused on solving challenging programming problems. With a background in marketing and customer service, I am passionate about collaborating with many different teams and clients.</Card.Body>
+                <Card.Body className="homepage-p">I am Mekenzie Hayford, I am a driven Software Engineer who brings creative problem solving and technical skills to fast-paced workplaces focused on solving challenging programming problems. With a background in marketing and customer service, I am passionate about collaborating with many different teams and clients.</Card.Body>
             </Card>
             </CardDeck>
+            </div>
             </div>
             <div className="homepage-div2">
                 <div className="work-header">

@@ -129,3 +129,9 @@ h4{
   width: 75rem;
   height: auto;
 }
+
+
+.homepage-p{
+  border: 1px solid black;
+  font-size: auto;
+}
