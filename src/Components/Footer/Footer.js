@@ -1,21 +1,22 @@
 import React from 'react';
 import { faMail, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 function Footer() {
     return(
         <>
         <div className="social">
-        <a rel="noreferrer" href="mailto:Mekenzie.hayford@gmail.com" target="_blank" >
-        {/* <FontAwesomeIcon icon={faMail}/> */}
+        <a className="mail" rel="noreferrer" href="mailto:Mekenzie.hayford@gmail.com" target="_blank" >
+        <FontAwesomeIcon icon={faEnvelope} size="lg"/>
         </a>
 
-        <a rel="noreferrer" href="https://github.com/mekahay" target="_blank">
+        <a className="github" rel="noreferrer" href="https://github.com/mekahay" target="_blank">
         <FontAwesomeIcon icon={faGithub} size="lg"/>
         </a>
 
-        <a rel="noreferrer" href="https://www.linkedin.com/in/mekenziehayford/"  target="_blank">
+        <a className="linkedin" rel="noreferrer" href="https://www.linkedin.com/in/mekenziehayford/"  target="_blank">
         <FontAwesomeIcon icon={faLinkedin} size="lg"/>
         </a>
         </div>
