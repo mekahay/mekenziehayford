@@ -31,7 +31,7 @@ function Home() {
                 <Card border="light" style={{ width: '18rem' }}>
                 <Card.Img variant="top" className="work-p5" src={p5img} />
                     <Card.Body>
-                    <Card.Title><a href="/happycabbage"><h4>Happy Cabbage</h4></a></Card.Title>
+                    <Card.Title><a href="/mekenziehayford/happycabbage"><h4>Happy Cabbage</h4></a></Card.Title>
                     <Card.Text>
                     Last Updated: February 3, 2021
                     </Card.Text> 
@@ -45,7 +45,7 @@ function Home() {
                 <Card border="light" style={{ width: '18rem' }}>
                     <Card.Img variant="top" className="work-p3" src={p3img} />
                     <Card.Body>
-                    <Card.Title><a href="/cocktailapp"><h4>Cocktail App</h4></a></Card.Title>
+                    <Card.Title><a href="/mekenziehayford/cocktailapp"><h4>Cocktail App</h4></a></Card.Title>
                     <Card.Text>
                     Last Updated: January 7, 2021
                     </Card.Text> 
@@ -59,7 +59,7 @@ function Home() {
                 <Card border="light" style={{ width: '18rem' }}>
                     <Card.Img variant="top" className="work-p2" src={p2img} />
                     <Card.Body>
-                        <Card.Title><a href="/commentdatabase"><h4>Comment Database</h4></a></Card.Title>
+                        <Card.Title><a href="/mekenziehayford/commentdatabase"><h4>Comment Database</h4></a></Card.Title>
                         <Card.Text>Last Updated: December 9, 2020</Card.Text> 
                         <hr/>
                         <Card.Text>A comment database using all RESTful routes.</Card.Text>
