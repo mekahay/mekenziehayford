@@ -6,7 +6,6 @@ function Header() {
     return(
         <>
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-        <Navbar.Brand className="initials" href="/mekenziehayford/" style={{fontSize: 35}}>MDH</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="justify-content-end">
@@ -24,6 +23,7 @@ function Header() {
             </Nav.Link>
         </Nav>
         </Navbar.Collapse>
+        <Navbar.Brand className="initials" href="/mekenziehayford/" style={{fontSize: 35}}>MDH</Navbar.Brand>
 
     </Navbar>
     </>

@@ -23,7 +23,7 @@ function Work () {
                 </Card.Text> 
                 <hr/>
                 <Card.Text>
-                A full-stack Ruby on Rails and React ecommerce application.
+                <p>A full-stack Ruby on Rails and React ecommerce application.</p>
                 </Card.Text>
                 </Card.Body>
             </Card>

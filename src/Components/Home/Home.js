@@ -1,5 +1,5 @@
 import React from 'react';
-import helloimg from './Untitled-1.png';
+import mhgif from './LOGO2.png';
 import p2img from '../Work/project2main.jpg';
 import p3img from '../Work/project3main.jpg';
 import p5img from '../Work/fianlprojectmain.jpg';
@@ -9,18 +9,15 @@ function Home() {
     return(
         <>
         <div className="homepage">
-        <div className="homepage-div">
             <div className="justify-content-center">
-            <Card>
-            <Card className="border-0">
-                {/* <Card.Img src={helloimg} className="homepage-hello"></Card.Img> */}
-                Hello!
+            <CardDeck className="align-items-center">
+            <Card className="border-0" >
+                <Card.Img src={mhgif} className="align-items-center"></Card.Img>
             </Card>
             <Card className="border-0">
-                <Card.Body className="homepage-p">I am Mekenzie Hayford, I am a driven Software Engineer who brings creative problem solving and technical skills to fast-paced workplaces focused on solving challenging programming problems. With a background in marketing and customer service, I am passionate about collaborating with many different teams and clients.</Card.Body>
+                <p>I am Mekenzie Hayford, I am a driven Software Engineer who brings creative problem solving and technical skills to fast-paced workplaces focused on solving challenging programming problems. With a background in marketing and customer service, I am passionate about collaborating with many different teams and clients.</p>
             </Card>
-            </Card>
-            </div>
+            </CardDeck>
             </div>
             <div className="homepage-div2">
                 <div className="work-header">

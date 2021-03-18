@@ -1,8 +1,17 @@
 @import url("https://use.typekit.net/jag1fmg.css");
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 
 .App {
   text-align: center;
   margin: 50px;
+  font-family: prestige-elite-std, monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+p{
+  font-family: semplicitapro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 a:link {
   color: black;
@@ -59,19 +68,21 @@ a:active {
 }
 
 h2{
-  font-family: paralucent, sans-serif;
+  font-family: prestige-elite-std, monospace;
   font-weight: 700;
   font-style: normal;
 }
+
 h4{
-  font-family: paralucent, sans-serif;
-  font-weight: 200;
+  font-family: prestige-elite-std, monospace;
+  font-weight: 700;
   font-style: normal;
 }
 
 .work-header{
-  font-family: paralucent, sans-serif;
+  font-family: prestige-elite-std, monospace;
   font-weight: 700;
+  font-style: normal;
   font-size: 250px;
   text-align: left;
 }
