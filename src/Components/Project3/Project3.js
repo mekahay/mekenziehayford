@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
+import { Card, CardDeck } from 'react-bootstrap';
 import picture1 from './Screen Shot 2021-02-09 at 9.20.06 PM.png';
 import picture2 from './Screen Shot 2021-02-09 at 9.20.31 PM.png';
 
@@ -12,11 +12,16 @@ function Project3() {
         </div>
         <a rel="noreferrer" href="https://cocktailshoppinglist.herokuapp.com/" target="_blank">Live Build</a> <br/>
         <a rel="noreferrer" href="https://github.com/mekahay/Project3" target="_blank">GitHub Repository</a>
-        <hr/>
-            <div className="images">
-                <Image className="p1-picture1" src={picture1} alt="picture1" fluid/>
-                <Image className="p1-picture2" src={picture2} alt="picture2" fluid/>
-            </div>
+        <br/>
+        <br/>
+        <CardDeck className="images">
+            <Card>
+                <Card.Img className="p1-picture1" src={picture1} alt="picture1" fluid/>
+            </Card>
+            <Card>
+                <Card.Img className="p1-picture2" src={picture2} alt="picture2" fluid/>
+            </Card>
+        </CardDeck>
             
         </>
     )

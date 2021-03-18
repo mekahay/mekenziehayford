@@ -24,16 +24,16 @@ function App() {
       <div>
       <hr/>
       <Switch>
-        <Route path="/mekenziehayford/" exact component={Home} />
-        <Route path="/mekenziehayford/work" component={Work} />
-        <Route path="/mekenziehayford/recollection" component={Project1} />
-        <Route path="/mekenziehayford/commentdatabase" component={Project2} />
-        <Route path="/mekenziehayford/cocktailapp" component={Project3} />
-        <Route path="/mekenziehayford/instainspire" component={Project4} />
-        <Route path="/mekenziehayford/happycabbage" component={Project5} />
-        <Route path="/mekenziehayford/resume" component={Resume} />
-        <Route path="/mekenziehayford/contact" component={Contact} />
-        <Route path="/mekenziehayford/aboutme" component={AboutMe} />
+        <Route path="/" exact component={Home} />
+        <Route path="/work" component={Work} />
+        <Route path="/recollection" component={Project1} />
+        <Route path="/commentdatabase" component={Project2} />
+        <Route path="/cocktailapp" component={Project3} />
+        <Route path="/instainspire" component={Project4} />
+        <Route path="/happycabbage" component={Project5} />
+        <Route path="/resume" component={Resume} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/aboutme" component={AboutMe} />
       </Switch>
       <hr/>
       </div>

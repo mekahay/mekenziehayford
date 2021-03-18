@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
+import { Card, CardDeck } from 'react-bootstrap';
 import picture1 from './Screen Shot 2021-02-09 at 9.38.36 PM.png';
 import picture2 from './Screen Shot 2021-02-09 at 9.40.02 PM.png';
 import picture3 from './Screen Shot 2021-02-09 at 9.40.36 PM.png';
@@ -15,13 +15,22 @@ function Project5() {
         <a rel="noreferrer" href="https://happycabbageclient.herokuapp.com/" target="_blank">Live Build</a> <br/>
         <a rel="noreferrer" href="https://github.com/mekahay/happycabbage-backend" target="_blank">GitHub Repository API</a><br/>
         <a rel="noreferrer" href="https://github.com/mekahay/happycabbageclient" target="_blank">GitHub Repository Client</a>
-        <hr/>
-            <div className="images">
-                <Image className="p1-picture1" src={picture1} alt="picture1" fluid/>
-                <Image className="p1-picture2" src={picture2} alt="picture2" fluid/>
-                <Image className="p1-picture3" src={picture3} alt="picture3" fluid/>
-                <Image className="p1-picture4" src={picture4} alt="picture4" fluid/>
-            </div>
+        <br/>
+        <br/>
+        <CardDeck className="images">
+            <Card>
+                <Card.Img className="p1-picture1" src={picture1} alt="picture1" fluid/>
+            </Card>
+            <Card>
+                <Card.Img className="p1-picture2" src={picture2} alt="picture2" fluid/>
+            </Card>
+            <Card>
+                <Card.Img className="p1-picture3" src={picture3} alt="picture3" fluid/>
+            </Card>
+            <Card>
+                <Card.Img className="p1-picture4" src={picture4} alt="picture4" fluid/>
+            </Card>
+        </CardDeck>
         </>
     )
 }
