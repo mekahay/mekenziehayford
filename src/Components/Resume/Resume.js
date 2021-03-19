@@ -1,6 +1,6 @@
 import React from 'react';
 import resume from './printableRESUME.png';
-// import resumepdf from './MEKENZIE HAYFORD RESUME.pdf'
+import resumepdf from './MEKENZIE HAYFORD RESUME.pdf'
 import {Card, Button} from 'react-bootstrap';
 
 
